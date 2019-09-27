@@ -1,55 +1,46 @@
+using System;
+
+
 namespace Bakery
 {
     public class Bread
     {
-        public int price {get; set;}
-        public int totalBread {get; set;}
-
-        public Bread()
+        public double pricePerBread {get; set;}
+      
+        public Bread(double breadNum)
         {
-            price = 5;
-            totalBread = 0;
+            pricePerBread = 5;
+            
         }
         
         // public static int BreadRule(int breadNum)
         // {
 
         // }
-        public  int BreadTotal(int breadNum)
-        {
-            
-            
-
-            int breadRemainder = breadNum % 3;
-            if(breadRemainder = 0)
-            {
-                Bread.totalBread = (breadNum * Bread.price) - (Bread.price * (breadNum / 3));
-                
-            }
-            else
-            {
-
-            }
-            totalBread = breadNum * price;
+        public double BreadTotal(double breadNum)
+        {                
+            double totalBread = Math.Ceiling(breadNum / 2 * pricePerBread);
+            return totalBread;
         }
     }
     public class Pastry
     {
-        public int price {get; set;}
-        public int totalPastry {get; set;}
-
+       
+        public int pricePerPastry {get; set;}
+     
         public Pastry()
         {
-            price = 2;
-            totalPastry = 0;
-        }
-        public  int PastryTotal(int pastryNum)
-        {
+            pricePerPastry = 2;
             
-
-
-
-            totalPastry = ciel(pastryNum / 2 * 2);
         }
+        // public  int PastryTotal(int pastryNum)
+        // {
+        //     int totalPastry = 0;
+
+
+
+        //     double totalPastry = 0;
+        //     return totalPastry;
+        // }
     }
 }
