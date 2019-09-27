@@ -8,10 +8,18 @@ namespace Bakery
         public Bread()
         {
             price = 5;
-            totalBread;
+            totalBread = 0;
         }
-        public static int BreadTotal(int breadNum)
+        
+        // public static int BreadRule(int breadNum)
+        // {
+
+        // }
+        public  int BreadTotal(int breadNum)
         {
+            
+            
+
             int breadRemainder = breadNum % 3;
             if(breadRemainder = 0)
             {
@@ -20,9 +28,9 @@ namespace Bakery
             }
             else
             {
-                
+
             }
-            Bread.
+            totalBread = breadNum * price;
         }
     }
     public class Pastry
@@ -33,7 +41,15 @@ namespace Bakery
         public Pastry()
         {
             price = 2;
-            totalPastry;
+            totalPastry = 0;
+        }
+        public  int PastryTotal(int pastryNum)
+        {
+            
+
+
+
+            totalPastry = ciel(pastryNum / 2 * 2);
         }
     }
 }
