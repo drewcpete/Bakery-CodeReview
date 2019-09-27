@@ -3,24 +3,21 @@ using System;
 
 namespace Bakery
 {
-    public class Bread
+    class Bread
     {
-        public int pricePerBread {get; set;}
-      
-        public Bread(int breadNum)
-        {
-            pricePerBread = 5;
-            
-        }
-        
-        // public static int BreadRule(int breadNum)
-        // {
+        public int BreadOrder {get; set;}
+        public int BreadPrice {get; set;}
+        public int BreadOrderPrice {get; set;}
 
-        // }
-        public int BreadTotal(int breadNum)
-        {                
-            int totalBread = (breadNum / 2 * pricePerBread);
-            return totalBread;
+        public Bread(int breadOrder)
+        {
+            BreadOrder = breadOrder;
+            BreadPrice = 5;
+        }
+        public void FindBreadPrice()
+        {
+            int freeBread = BreadOrder/2;
+            BreadOrderPrice = (BreadOrder - freeBread)*BreadPrice;
         }
     }
     public class Pastry

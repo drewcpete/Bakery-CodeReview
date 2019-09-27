@@ -2,3 +2,10 @@ C:\users\19714\documents\epicodus\csharpbakery\obj\Debug\netcoreapp2.2\bakery.cs
 C:\users\19714\documents\epicodus\csharpbakery\obj\Debug\netcoreapp2.2\bakery.csproj.CoreCompileInputs.cache
 C:\users\19714\documents\epicodus\csharpbakery\obj\Debug\netcoreapp2.2\bakery.AssemblyInfoInputs.cache
 C:\users\19714\documents\epicodus\csharpbakery\obj\Debug\netcoreapp2.2\bakery.AssemblyInfo.cs
+C:\users\19714\documents\epicodus\csharpbakery\bin\Debug\netcoreapp2.2\bakery.deps.json
+C:\users\19714\documents\epicodus\csharpbakery\bin\Debug\netcoreapp2.2\bakery.runtimeconfig.json
+C:\users\19714\documents\epicodus\csharpbakery\bin\Debug\netcoreapp2.2\bakery.runtimeconfig.dev.json
+C:\users\19714\documents\epicodus\csharpbakery\bin\Debug\netcoreapp2.2\bakery.dll
+C:\users\19714\documents\epicodus\csharpbakery\bin\Debug\netcoreapp2.2\bakery.pdb
+C:\users\19714\documents\epicodus\csharpbakery\obj\Debug\netcoreapp2.2\bakery.dll
+C:\users\19714\documents\epicodus\csharpbakery\obj\Debug\netcoreapp2.2\bakery.pdb
