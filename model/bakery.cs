@@ -5,9 +5,9 @@ namespace Bakery
 {
     public class Bread
     {
-        public double pricePerBread {get; set;}
+        public int pricePerBread {get; set;}
       
-        public Bread(double breadNum)
+        public Bread(int breadNum)
         {
             pricePerBread = 5;
             
@@ -17,9 +17,9 @@ namespace Bakery
         // {
 
         // }
-        public double BreadTotal(double breadNum)
+        public int BreadTotal(int breadNum)
         {                
-            double totalBread = Math.Ceiling(breadNum / 2 * pricePerBread);
+            int totalBread = (breadNum / 2 * pricePerBread);
             return totalBread;
         }
     }
