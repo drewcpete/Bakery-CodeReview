@@ -1,0 +1,4 @@
+C:\users\19714\documents\epicodus\csharpbakery\obj\Debug\netcoreapp2.2\bakery.csprojAssemblyReference.cache
+C:\users\19714\documents\epicodus\csharpbakery\obj\Debug\netcoreapp2.2\bakery.csproj.CoreCompileInputs.cache
+C:\users\19714\documents\epicodus\csharpbakery\obj\Debug\netcoreapp2.2\bakery.AssemblyInfoInputs.cache
+C:\users\19714\documents\epicodus\csharpbakery\obj\Debug\netcoreapp2.2\bakery.AssemblyInfo.cs
