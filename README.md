@@ -27,5 +27,3 @@ You can contact me at drewcpete@gmail.com with any questions or comments.
 
 ## License
 This project is licensed under the MIT License
-
-
