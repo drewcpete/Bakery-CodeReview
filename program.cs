@@ -9,12 +9,9 @@ namespace Bakery
         public static void Main()
         {
             Console.WriteLine("Welcome to our bakery! Today we are offering bread and pastries.");
-            Console.WriteLine("Can we get a name for your order?");
+            Console.WriteLine("What's your name?");
             string orderName = Console.ReadLine();
             Order(orderName);
-        
-            
- 
         }
         public static void Order(string orderName)
         {
@@ -33,6 +30,7 @@ namespace Bakery
             int orderTotal = bread.BreadOrderPrice + pastry.PastryOrderPrice;
             
             Console.WriteLine($"Your total is ${orderTotal}. ${bread.BreadOrderPrice} for {orderBread} loaves of bread and ${pastry.PastryOrderPrice} for {orderPastry} pastries.");
+            Console.WriteLine($"Please send {orderTotal} to $rewpet on the cashapp.");
             Console.WriteLine("Would you like to make another order? y/n");
             string answer = Console.ReadLine();
             if (answer == "y" ||answer == "Y")
