@@ -12,7 +12,7 @@ namespace Bakery
         public Bread(int breadOrder)
         {
             BreadOrder = breadOrder;
-            BreadPrice = 5;
+            BreadPrice = 5;            
         }
         public void FindBreadPrice()
         {
@@ -21,23 +21,18 @@ namespace Bakery
         }
     }
     public class Pastry
-    {
-       
-        public int pricePerPastry {get; set;}
-     
-        public Pastry()
+    {       
+        public int PastryOrder {get; set;}
+        public int PastryPrice {get; set;}
+        public int PastryOrderPrice {get; set;}     
+        public Pastry(int pastryOrder)
         {
-            pricePerPastry = 2;
-            
+            PastryOrder = pastryOrder;
+            PastryPrice = 2;            
         }
-        // public  int PastryTotal(int pastryNum)
-        // {
-        //     int totalPastry = 0;
-
-
-
-        //     double totalPastry = 0;
-        //     return totalPastry;
-        // }
+        public void FindPastryPrice()
+        {            
+            PastryOrderPrice = ((PastryOrder % 3)*2) + (PastryOrder / 3 * 5);
+        }
     }
 }
