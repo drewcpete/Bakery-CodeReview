@@ -2,6 +2,7 @@ using System;
 
 namespace Bakery
 {
+    //A new class for Bread
     class Bread
     {
         public int BreadOrder {get; set;}
@@ -13,12 +14,14 @@ namespace Bakery
             BreadOrder = breadOrder;
             BreadPrice = 5;            
         }
+        //Method for finding the price of bread with the discount of buying two and getting the thrid free
         public void FindBreadPrice()
         {
             int freeBread = BreadOrder/2;
             BreadOrderPrice = (BreadOrder - freeBread)*BreadPrice;
         }
     }
+    //A new class for Pastry
     public class Pastry
     {       
         public int PastryOrder {get; set;}
@@ -29,6 +32,7 @@ namespace Bakery
             PastryOrder = pastryOrder;
             PastryPrice = 2;            
         }
+        //method for finding the pastry cost with the discount of buying 3 for $5
         public void FindPastryPrice()
         {            
             PastryOrderPrice = ((PastryOrder % 3)*2) + (PastryOrder / 3 * 5);

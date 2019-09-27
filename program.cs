@@ -11,8 +11,10 @@ namespace Bakery
             Console.WriteLine("Welcome to our bakery! Today we are offering bread and pastries.");
             Console.WriteLine("What's your name?");
             string orderName = Console.ReadLine();
+            //Calling the method for placing an order
             Order(orderName);
         }
+        //A method for placing an order
         public static void Order(string orderName)
         {
             Console.WriteLine($"Okay, {orderName}, how many loaves of bread would you like?  They're $5 a loaf, but if you buy two, you get one for free!");
