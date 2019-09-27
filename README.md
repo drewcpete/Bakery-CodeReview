@@ -25,4 +25,7 @@ This is my week 8 Epicodus project using C#.  It is an app for a bakery that all
 ## Contact
 You can contact me at drewcpete@gmail.com with any questions or comments.
 
-## 
+## License
+This project is licensed under the MIT License
+
+
