@@ -21,15 +21,10 @@ namespace Bakery
             bread.FindBreadPrice();
             pastry.FindPastryPrice();
 
-
             int orderTotal = bread.BreadOrderPrice + pastry.PastryOrderPrice;
             
             Console.WriteLine($"Your total is ${orderTotal}. ${bread.BreadOrderPrice} for {orderBread} loaves of bread and ${pastry.PastryOrderPrice} for {orderPastry} pastries.");
             Console.WriteLine("Would you like to make another order?");
-
         }
-
-
     }
-
 }
